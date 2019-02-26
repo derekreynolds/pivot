@@ -1,0 +1,36 @@
+<div class="er-weather-card" (click)="onClick()" [ngClass]="{'er-weather-card-pivot': pivoted }">
+	<div class="front">
+		<div class="er-card-header">
+			{{day}}
+		</div>
+		<div class="er-card-body">
+			<img class="uk-preserve" src="assets/SVG/2.svg" width="40" height="40" uk-svg>
+		</div>
+		<div class="er-card-footer">
+			L{{lowTemperature}}&#176; - H{{highTemperature}}&#176;
+		</div>
+	</div>
+	<div class="back">
+		<div class="er-card-header">
+			Wind speed
+		</div>
+		<div class="er-card-body">
+			<div id="compass">
+			  <div id="bezel"></div>
+			  <div id="NWSE" class="quad"></div>
+			  <div id="NESW" class="quad"></div>
+			  <div id="NS" class="quad"></div>
+			  <div id="WE" class="quad"></div>
+			  <span id="N" class="dir">N</span>
+			  <span id="E" class="dir">E</span>
+			  <span id="S" class="dir">S</span>
+			  <span id="W" class="dir">W</span>
+			  <div id="needle"></div>
+			  <div id="axis"></div>
+			</div>
+		</div>
+		<div class="er-card-footer">
+			Humidity
+		</div>
+	</div>
+</div>

@@ -1,0 +1,29 @@
+@import '../../../media';
+
+.er-sub-header-action {
+	padding: 0 0 1rem 0;
+}
+
+.er-sub-header-action-text {
+
+	@include for-phone-only {
+		font-size: 0.5rem;
+    }
+
+    @include for-tablet-portrait-up {
+    	font-size: 0.6rem;
+    }
+
+    @include for-tablet-landscape-up {
+    	font-size: 0.7rem;
+    }
+
+	@include for-desktop-up {
+		font-size: 0.8rem;
+	}
+
+	@include for-big-desktop-up {
+		font-size: 0.9rem;
+	}
+
+}

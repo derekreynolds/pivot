@@ -1,0 +1,36 @@
+{
+    "articles": [{
+        "id": "1",
+        "title": "Major changes to CAP on the cards",
+        "author": "Staff Writer",
+        "authorId": "",
+        "imageUrl": "assets/pexels-photo-841303.jpeg",
+        "publicationDateTime": "2019-01-30T21:34:49",
+        "numberOfViews": 211234,
+        "categories": ["NEWS"],
+        "subCategories": ["IE"]
+    },
+    {
+        "id": "2",
+        "title": "Insurance fraud on the rise",
+        "author": "Contributing Writer",
+        "authorId": "",
+        "imageUrl": "assets/Insurance.jpg",
+        "publicationDateTime": "2019-01-29T21:04:49",
+        "numberOfViews": 121264,
+        "categories": ["NEWS", "BUSINESS"],
+        "subCategories": ["IE"]
+    },
+    {
+        "id": "3",
+        "title": "Trump considers Venezuelan intervention",
+        "author": "Derek Reynolds",
+        "authorId": "",
+        "imageUrl": "assets/venezuela.jpeg",
+        "publicationDateTime": "2019-01-27T11:44:09",
+        "numberOfViews": 821264,
+        "categories": ["NEWS"],
+        "subCategories": ["US"]
+    
+    }] 
+}

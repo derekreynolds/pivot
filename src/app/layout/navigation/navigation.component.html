@@ -1,0 +1,20 @@
+<nav>
+	<ul uk-tab>
+	  <li class="uk-active"><a href="#" (click)="onClick('NEWS')">News</a></li>
+	  <li><a href="#" (click)="onClick('BUSINESS')">Business</a></li>
+	  <li><a href="#" (click)="onClick('SPORT')">Sport</a></li>
+	  <li class="uk-visible@s"><a href="#" (click)="onClick('ENTERTAINMENT')">Entertainment</a></li>
+	  <li class="uk-visible@s uk-visible@m"><a href="#" (click)="onClick('OPINIONS')">Opinions</a></li>
+	  <li class="uk-visible@s uk-visible@m"><a href="#" (click)="onClick('REVIEWS')">Reviews</a></li>
+	  <li class="uk-hidden@s">
+	    <a href="#">More <span class="uk-margin-small-left" uk-icon="icon: triangle-down"></span></a>
+	    <div uk-dropdown="mode: click">
+	        <ul class="uk-nav uk-dropdown-nav">
+	            <li class="uk-active"><a href="#" (click)="onClick('ENTERTAINMENT')">Entertainment</a></li>
+	            <li><a href="#" (click)="onClick('OPINIONS')">Opinions</a></li>
+	            <li><a href="#" (click)="onClick('REVIEWS')">Reviews</a></li>
+	        </ul>
+	    </div>
+	  </li>
+	</ul>
+</nav>
